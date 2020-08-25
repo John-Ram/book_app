@@ -28,6 +28,6 @@ Estimate of time needed to complete: 3 hours
 
 Start time: 0732/
 
-Finish time: _____
+Finish time: 0834/
 
-Actual time needed to complete: _____
+Actual time needed to complete: first push: 1 hour 2 minutes/
