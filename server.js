@@ -2,7 +2,7 @@
 
 // Packages
 const express = require('express');
-const { response } = require('express');
+const {response} = require('express');
 require('dotenv').config();
 
 // Global variables
@@ -16,10 +16,10 @@ app.use(express.static('./public'));
 app.use(express.urlencoded({extended: true}));
 app.set('view engine', 'ejs');
 
-app.get('/', (req, res) => {
-  response.render();
-});
+app.get('/', homeHandler);
 
+function homeHandler(request,response {
+  respons.status(200).sendfile('./index.html');
+})
 
-
-app.listen(Port, () => console.log('App is running on Port : ${Port} yay'));
+app.listen(Port, () => console.log(`App is running on Port : ${Port} yay`));
