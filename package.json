@@ -4,8 +4,12 @@
   "description": "A server loading google book api.",
   "main": "server.js",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "pg": "^8.3.2",
+    "superagent": "^6.0.0"
   },
   "devDependencies": {},
   "scripts": {
