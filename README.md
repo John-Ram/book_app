@@ -24,6 +24,18 @@ Estimate of time needed to complete: 1hr
 
 Start time: 1300
 
+Finish time: 1500
+
+Actual time needed to complete: 2hrs
+
+---
+
+Number and name of feature: 
+
+Estimate of time needed to complete: 
+
+Start time: 
+
 Finish time: 
 
 Actual time needed to complete: 
