@@ -18,8 +18,8 @@ app.set('view engine', 'ejs');
 
 app.get('/', homeHandler);
 
-function homeHandler(request,response {
-  respons.status(200).sendfile('./index.html');
-})
+function homeHandler(request,response) {
+  response.status(200).sendfile('./index.ejs');
+};
 
 app.listen(Port, () => console.log(`App is running on Port : ${Port} yay`));
