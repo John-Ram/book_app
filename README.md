@@ -30,15 +30,15 @@ Actual time needed to complete: 2hrs
 
 ---
 
-Number and name of feature: 
+Number and name of feature: Object Constructor Function, Search Handler, form
 
-Estimate of time needed to complete: 
+Estimate of time needed to complete: 1 hour
 
-Start time: 
+Start time: 9:30
 
-Finish time: 
+Finish time: 10:30
 
-Actual time needed to complete: 
+Actual time needed to complete: 1 hour
 
 ---
 
