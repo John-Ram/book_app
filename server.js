@@ -14,8 +14,8 @@ app.use(express.static('./public'));
 // express.static('./public') tells express to open one folder as publicly available static files (on the / get route) 
 // above copied to understand what (./public) does.
 app.use(express.urlencoded({extended: true}));
-// app.set('views', path.join(__dirname, 'views'));
-// app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'ejs');
 
 app.get('/', function(request, response) {
   response.render('index', {
