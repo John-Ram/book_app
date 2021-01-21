@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Rubik:wght@500&display=swap');
+
+body * {
+  box-sizing: border-box;
+}
+
 body {
   background-color: skyblue;
   color: navy;
-  border: grey
+  border: grey;
+  font-family: 'Rubik', sans-serif;
+}
+
+p {
+  font-family: 'EB Garamond', serif;
 }

@@ -1,0 +1,13 @@
+body {
+  max-width: 450px;
+  margin: auto;
+  outline: grey 1px solid;
+}
+
+header {
+  height: 60px;
+}
+
+main {
+  overflow: hidden;
+}
