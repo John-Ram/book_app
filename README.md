@@ -29,16 +29,17 @@ Finish time: 1500
 Actual time needed to complete: 2hrs
 
 ---
+01-20-21, 1945: adding SQL files with database and table. Additional works include writing error.ejs syntax and error handler.
 
-Number and name of feature: 
+Number and name of feature: Book APP version 1.1.2 SQL
 
-Estimate of time needed to complete: 
+Estimate of time needed to complete: 30 mins
 
-Start time: 
+Start time: 1900
 
-Finish time: 
+Finish time: 1945
 
-Actual time needed to complete: 
+Actual time needed to complete: 25 mins
 
 ---
 
