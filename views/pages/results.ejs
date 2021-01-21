@@ -1,0 +1,38 @@
+<!DOCTYPE><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book-App</title>
+</head>
+  <body>
+    
+    <%- include('public/layout') %>
+
+    <div id name value><h2>Search Results</h2></div>
+
+
+    <!-- //This will render results -->
+    <div>
+      <% data.forEach(books => %> {
+      
+        <div id name value>thumbnail: <%=books.thumbnail%></p>
+        <p>Title: <%=books.title%></p>
+        <p>Author: <%=books.author%></p>
+        <p>Description: <%=books.description%></p>
+        <li>url: <%=books.url%></li>
+      
+      <%})%>
+    </div>
+    
+    <footer>
+      <a href="">Twitter</a>
+      <a href="">Facebook</a>
+      <a href="">Instagram</a>
+      <a href="">Other</a>
+
+    </footer>
+  </body>
+
+</html>
+

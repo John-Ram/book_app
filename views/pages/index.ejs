@@ -27,10 +27,10 @@
 
     <% data.forEach(books => %> {
       <ul>
+        <li>thumbnail: <%=books.thumbnail%></li>
         <li>Title: <%=books.title%></li>
         <li>Author: <%=books.author%></li>
         <li>Description: <%=books.description%></li>
-        <li>thumbnail: <%=books.thumbnail%></li>
         <li>url: <%=books.url%></li>
       </ul>
       <%})%>

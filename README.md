@@ -42,6 +42,16 @@ Actual time needed to complete: 1 hour
 
 ---
 
+Number and name of feature: layout2.css (for layout and partials), details.ejs, results.ejs, edited new.ejs, myTopnav,
+
+Estimate of time needed to complete: 
+
+Start time: 6:45 pm
+
+Finish time: 11:35pm
+
+Actual time needed to complete: still working on lab
+
 Number and name of feature: 
 
 Estimate of time needed to complete: 
@@ -51,3 +61,4 @@ Start time:
 Finish time: 
 
 Actual time needed to complete: 
+

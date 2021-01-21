@@ -1,0 +1,8 @@
+<header>
+  <h1>Best Books!</h1>
+  <div class="topnav" id="myTopnav">
+    <a href="#search">Home</a>
+    <a href="#details">Search</a>
+    <a href="#results">Search Results</a>
+  </div>
+</header>

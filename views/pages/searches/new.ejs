@@ -1,0 +1,52 @@
+<!DOCTYPE><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book-App</title>
+</head>
+  <body>
+    
+    <%- include('public/layout') %>
+    <h2>Search by Title or Author</h2>
+
+
+
+    <form action="/form/submit" method="GET">
+      <input type="text" name="text" class="search" placeholder="Enter a title or author">
+      <input type="submit" name="sumbit" class="submit" value="Search">
+    </form>
+
+    <div>
+      <input type="radio" id="title" name="booksearch" value="title"
+          checked>
+      <label for="title">Title</label>
+    </div>
+
+    <div>
+      <input type="radio" id="author" name="booksearch" value="author">
+      <label for="author">Author</label>
+    </div>
+
+    <!-- //This will render results
+    <% data.forEach(books => %> {
+      <ul>
+        <li>thumbnail: <%=books.thumbnail%></li>
+        <li>Title: <%=books.title%></li>
+        <li>Author: <%=books.author%></li>
+        <li>Description: <%=books.description%></li>
+        <li>url: <%=books.url%></li>
+      </ul>
+      <%})%> -->
+
+    <footer>
+      <a href="">Twitter</a>
+      <a href="">Facebook</a>
+      <a href="">Instagram</a>
+      <a href="">Other</a>
+
+    </footer>
+  </body>
+
+</html>
+

@@ -33,11 +33,11 @@ function homeHandler(request, response) {
 
 //Book Object Constructor Function
 function Book(book) {
-  this.book_title = title ;
+  this.book_title = title;
   this.author=author;
   this.description=description;
   this.image.url= ;
-  this.url =     ;
+ 
 }
 
 //Search handler
