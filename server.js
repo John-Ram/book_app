@@ -22,7 +22,6 @@ app.use(function (error, request, response, next) {
   response.render('pages/error')
 })
 
-
 app.get('/', function(request, response) {
   response.render('index', {
 

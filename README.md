@@ -28,8 +28,20 @@ Finish time: 1500
 
 Actual time needed to complete: 2hrs
 
+
+=======
+Number and name of feature: Object Constructor Function, Search Handler, form
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 9:30
+
+Finish time: 10:30
+
+Actual time needed to complete: 1 hour
 ---
 01-20-21, 1945: adding SQL files with database and table. Additional works include writing error.ejs syntax and error handler.
+
 
 Number and name of feature: Book APP version 1.1.2 SQL
 
@@ -39,7 +51,7 @@ Start time: 1900
 
 Finish time: 1945
 
-Actual time needed to complete: 25 mins
+Actual time needed to complete: 45 mins
 
 ---
 
