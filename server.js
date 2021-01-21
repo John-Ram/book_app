@@ -16,6 +16,11 @@ app.use(express.static('./public'));
 app.use(express.urlencoded({extended: true}));
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+app.use(function (error, request, response, next) {
+  console.error(err.stack)
+  response.status(500)
+  response.render('pages/error')
+})
 
 app.get('/', function(request, response) {
   response.render('index', {
@@ -33,7 +38,7 @@ function homeHandler(request, response) {
 
 //Book Object Constructor Function
 function Book(book) {
-  this.book_title = title ;
+  this.book_title = title;
   this.author=author;
   this.description=description;
   this.image.url= ;
@@ -48,5 +53,13 @@ function getBook(request, response) {
   const url = 
 }
 
+
+function errorHandler(error, response){
+  console.log(error);
+  response.status(500).render('pages/error', {
+    status: error.status,
+    message: error.message
+  });
+}
 
 app.listen(Port, () => console.log(`App is running on Port : ${Port} yay`));
