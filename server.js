@@ -42,6 +42,9 @@ function Book(book) {
 
 //Search handler
 function getBook(request, response) {
+  const url = `https://www.googleapis.com/books/v1/volumes?q=`;
+  // if  (request.body.name[0] === 'title'? url +=`+intitle:${request.body.name[0]}` : += +inauthor:${request.body.name[1]});
+  console.log('request.body.name>>')
   const book = req.query.book;
   //Use this key in your application by passing it with the key=API_KEY parameter. 
   const key = process.env.API_KEY;

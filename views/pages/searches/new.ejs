@@ -12,21 +12,22 @@
 
 
 
-    <form action="/form/submit" method="GET">
+    <form action="/searches" method="POST">
       <input type="text" name="text" class="search" placeholder="Enter a title or author">
       <input type="submit" name="sumbit" class="submit" value="Search">
-    </form>
+    
 
-    <div>
+      <div>
       <input type="radio" id="title" name="booksearch" value="title"
           checked>
       <label for="title">Title</label>
-    </div>
+      </div>
 
-    <div>
+      <div>
       <input type="radio" id="author" name="booksearch" value="author">
       <label for="author">Author</label>
-    </div>
+      </div>
+  </form>
 
     <!-- //This will render results
     <% data.forEach(books => %> {
